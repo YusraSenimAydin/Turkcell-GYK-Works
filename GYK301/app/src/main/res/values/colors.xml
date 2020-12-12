@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="colorgreen">#0E6655 </color>
+    <color name="colormor">#8E44AD   </color>
+    <color name="colormavi">#21618C     </color>
+
+    <color name="colorkoyu">#34495E     </color>
+
+    <color name="colorturuncu">#D35400   </color>
+
+    <color name="colorred">#E74C3C    </color>
+    <color name="colorbeyaz">#F4F6F7      </color>
+
+
+</resources>

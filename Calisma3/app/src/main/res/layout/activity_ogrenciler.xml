@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context=".Ogrenciler">
+
+
+    <ImageView
+        android:id="@+id/resim"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginEnd="24dp"
+        android:layout_marginRight="24dp"
+        android:background="@drawable/userbir"
+        app:layout_constraintEnd_toStartOf="@+id/txtad"
+        tools:layout_editor_absoluteY="0dp" />
+
+    <TextView
+
+        android:id="@+id/txtad"
+        android:layout_width="122dp"
+        android:layout_height="30dp"
+
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/txttarih"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/txttarih"
+        android:layout_width="200dp"
+
+        android:layout_height="50dp"
+        tools:layout_editor_absoluteX="232dp"
+        tools:layout_editor_absoluteY="0dp"
+
+
+        />
+
+</android.support.constraint.ConstraintLayout>

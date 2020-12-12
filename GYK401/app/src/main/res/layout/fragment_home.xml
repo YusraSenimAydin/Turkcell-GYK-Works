@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.MainActivity">
+
+    <!-- TODO: Update blank fragment layout -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="0dp"
+        android:orientation="vertical"
+        >
+
+        <TextView
+            android:id="@+id/sonuc"
+            android:layout_width="match_parent"
+            android:layout_height="133dp"
+            android:background="#9292ff"
+            android:gravity="center"
+            android:textSize="10dp"
+            android:text="Vücut Kütle İndeksi Hesapla"
+            android:textColor="#ffffff"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="74dp"
+            android:id="@+id/UserWeightET"
+            android:layout_marginTop="20dp"
+            android:layout_margin="20dp"
+            android:hint="Boyunuzu Giriniz"
+
+           />
+        <EditText
+            android:layout_width=""
+            android:layout_height="" />
+        <Button
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/CalculateB"
+            android:layout_gravity="center_horizontal"
+            android:padding="30dp"
+            android:background="#9292ff"
+            android:text="HESAPLA"
+            android:layout_marginTop="20dp"
+            android:textColor="#ffffff"/>
+    </LinearLayout>
+
+</RelativeLayout>

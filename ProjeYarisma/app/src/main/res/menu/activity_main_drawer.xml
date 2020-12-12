@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/home"
+            android:icon="@drawable/ic_home"
+            android:title="@string/menu_home" />
+        <item
+            android:id="@+id/howUse"
+            android:icon="@drawable/ic_question_answer"
+            android:title="@string/menu_howUse" />
+
+        <item
+            android:id="@+id/profil"
+            android:icon="@drawable/ic_person"
+            android:title="@string/menu_profil" />
+        <item
+            android:id="@+id/help"
+            android:icon="@drawable/ic_help_black"
+            android:title="@string/menu_help" />
+        <item
+            android:id="@+id/settings"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="@string/menu_settings" />
+
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/logOut"
+                android:icon="@drawable/ic_exit_to_app"
+                android:title="@string/menu_logout" />
+            <item
+                android:id="@+id/loginOrSignUp"
+                android:icon="@drawable/ic_open_in_new"
+                android:title="@string/menu_loginOrSignUp" />
+        </menu>
+    </item>
+
+</menu>

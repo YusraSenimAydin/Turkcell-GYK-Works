@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/isim"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="16dp"
+        android:hint="İsim"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"/>
+
+    <EditText
+        android:id="@+id/telefon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:ems="10"
+        android:hint="Telefon"
+        android:layout_below="@+id/isim"
+        android:inputType="phone"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="72dp" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="138dp"
+        android:layout_height="wrap_content"
+        android:text="EKLE"
+        android:layout_below="@+id/telefon"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="135dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"/>
+
+    <ListView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/veriler"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/button" />
+
+    <Button
+        android:id="@+id/listele"
+        android:layout_width="143dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@+id/telefon"
+        android:layout_marginEnd="110dp"
+        android:text="LİSTELE"
+        android:layout_alignParentRight="true"
+        tools:ignore="RtlCompat" />
+
+</RelativeLayout>

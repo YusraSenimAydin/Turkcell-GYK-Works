@@ -1,0 +1,63 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#E0E0D1" >
+    <LinearLayout
+        android:id="@+id/iki"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+        <TextView
+            android:id="@+id/textViewURL"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:paddingLeft="13dp"
+            android:textColor="#000"
+            android:text="URL" />
+        <EditText
+            android:id="@+id/URL"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:ems="10" >
+        </EditText>
+        <Button
+            android:id="@+id/Git"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Git" />
+    </LinearLayout>
+    <WebView
+        android:id="@+id/webV"
+        android:layout_width="fill_parent"
+        android:layout_height="850dp"
+        android:layout_below="@id/iki" />
+    <LinearLayout
+        android:id="@+id/bir"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="3"
+        android:layout_below="@+id/webV"
+        >
+        <Button
+            android:id="@+id/Geri"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Geri" />
+        <Button
+            android:id="@+id/Anasayfa"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Anasayfa" />
+        <Button
+            android:id="@+id/Ileri"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Ileri"
+            />
+    </LinearLayout>
+</RelativeLayout>

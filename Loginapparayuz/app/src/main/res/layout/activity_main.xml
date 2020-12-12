@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@drawable/arkaplan">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:padding="20dp"
+            android:src="@drawable/ic_userr" />
+
+                <EditText
+                    android:id="@+id/edtmail"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:drawableLeft="@drawable/ic_action_name"
+                    android:ems="10"
+                    android:hint="Ad Soyad"
+                    android:inputType="textPersonName"
+                    android:text="email@gmail.com"
+                    android:textColor="#fff"
+                    tools:textSize="25dp" />
+
+
+
+                <EditText
+                    android:id="@+id/edtpass"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:ems="10"
+                    android:inputType="textPersonName"
+                    android:hint="Password"
+                    android:textColorHint="#FFFFFF"
+                    android:drawableLeft="@drawable/ic_paas"
+                    tools:textSize="25dp" />
+
+
+
+        <Button
+            android:id="@+id/btnTıkla"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="btnTıkla"
+            android:text="Kaydet"
+            android:textColor="@color/colorPrimaryDark"
+            tools:ignore="MissingConstraints,OnClick"
+            tools:textSize="25dp" />
+
+    </LinearLayout>
+
+</RelativeLayout>

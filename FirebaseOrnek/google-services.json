@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "576958013331",
+    "firebase_url": "https://fir-ornek-84d8b.firebaseio.com",
+    "project_id": "fir-ornek-84d8b",
+    "storage_bucket": "fir-ornek-84d8b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:576958013331:android:011c1c03cbfe386e",
+        "android_client_info": {
+          "package_name": "com.example.firebaseornek"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "576958013331-2bnomic7tmmra5ksnb2sh49l3ir6k19p.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.firebaseornek",
+            "certificate_hash": "758d8a94396bff980176ad75c768571b9707d5fa"
+          }
+        },
+        {
+          "client_id": "576958013331-gb1gkm6v4l2at3hvjuumt94vprlvc209.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCPN6gM4i1uCudTNQQf0yVrW5KPRnjPru4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "576958013331-gb1gkm6v4l2at3hvjuumt94vprlvc209.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

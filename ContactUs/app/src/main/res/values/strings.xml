@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Contact Us</string>
+
+
+    <string name="contact_us">Contact Us</string>
+    <string name="contact_us_isim0">İsim</string>
+    <string name="contact_us_email">Email</string>
+    <string name="contact_us_konu">Konu</string>
+    <string name="contact_us_mesaj">Mesaj</string>
+    <string name="contact_us_msjgonder">Mesaj Gönder</string>
+    <string name="contact_us_post_message">Lütfen bekle! Mesajınızı destek departmanına gönderiyoruz ...</string>
+    <string name="contact_posted">Mesajınız başarıyla iletildi.</string>
+
+</resources>

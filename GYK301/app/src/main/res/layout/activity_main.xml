@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context=".MainActivity"
+    android:weightSum="1"
+    android:layout_gravity="center"
+    android:orientation="horizontal">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="vertical">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:orientation="horizontal"
+            android:weightSum="2"
+            android:layout_marginTop="3dp">
+
+
+            <Button
+
+                android:id="@+id/open_photo_and_video"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginRight="3dp"
+                android:layout_weight="1"
+                android:text="FOTOĞRAF VİDEO"
+
+                android:textColor="@color/colormor"
+                />
+
+            <Button
+                android:id="@+id/open_voice"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@color/colormor"
+                android:textColor="@color/colorbeyaz"
+                android:text="SES KAYIT İŞLEMLERİ" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="2"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:layout_marginTop="3dp">
+
+            <Button
+                android:layout_marginRight="3dp"
+                android:id="@+id/open_map"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="HARİTAYA GİT"
+                android:background="@color/colorturuncu"
+                android:textColor="@color/colorbeyaz"
+            />
+            <Button
+                android:id="@+id/open_web"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="WEB SAYFASINA GİT"
+                android:layout_weight="1"
+                android:textColor="@color/colorturuncu"
+           />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:weightSum="2">
+            <Button
+
+                android:layout_marginRight="3dp"
+                android:id="@+id/send_sms"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="SMS GÖNDER"
+                android:layout_weight="1"
+                android:textColor="@color/colormavi"
+
+                />
+            <Button
+                android:id="@+id/dial_call"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="ARAMA YAP"
+                android:layout_weight="1"
+                android:background="@color/colormavi"
+                android:textColor="@color/colorbeyaz"
+
+                />
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

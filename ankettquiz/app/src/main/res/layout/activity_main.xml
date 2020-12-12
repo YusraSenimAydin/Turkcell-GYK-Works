@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/tad"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Ad Soyad:"
+        android:textStyle="bold"
+        tools:textSize="30dp" />
+
+    <EditText
+        android:id="@+id/etad"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        tools:layout_editor_absoluteX="137dp"
+        tools:layout_editor_absoluteY="0dp" />
+
+    <TextView
+        android:id="@+id/tyas"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Yaş:"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="29dp"
+        tools:layout_editor_absoluteY="68dp" />
+
+    <EditText
+        android:id="@+id/etyas"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        tools:layout_editor_absoluteX="137dp"
+        tools:layout_editor_absoluteY="68dp" />
+
+    <TextView
+        android:id="@+id/tcinsiyet"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Cinsiyet:"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="149dp"
+        tools:textSize="25dp" />
+
+    <RadioButton
+        android:id="@+id/rbbay"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Bay"
+        tools:layout_editor_absoluteX="130dp"
+        tools:layout_editor_absoluteY="142dp"
+        tools:textSize="15dp" />
+
+    <RadioButton
+        android:id="@+id/rbbayan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Bayan"
+        tools:layout_editor_absoluteX="259dp"
+        tools:layout_editor_absoluteY="142dp" />
+
+    <TextView
+        android:id="@+id/tögrnci"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Öğrenci"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="227dp" />
+
+    <CheckBox
+        android:id="@+id/cb_evet"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Evet"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="138dp"
+        tools:layout_editor_absoluteY="223dp" />
+
+    <TextView
+        android:id="@+id/tdil"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="En sevdiğiniz dil?"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="273dp"
+        tools:textSize="30dp" />
+
+    <CheckBox
+        android:id="@+id/cb_java"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Java"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="322dp" />
+
+    <CheckBox
+        android:id="@+id/cb_cpp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="C++"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="122dp"
+        tools:layout_editor_absoluteY="322dp" />
+
+    <CheckBox
+        android:id="@+id/cb_c"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="C"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="238dp"
+        tools:layout_editor_absoluteY="322dp" />
+
+    <Button
+        android:id="@+id/btngonder"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="gonder"
+        android:text="Gönder"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="410dp" />
+
+</android.support.constraint.ConstraintLayout>

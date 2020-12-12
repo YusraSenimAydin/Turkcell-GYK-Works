@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">GYK401</string>
+    <string name="title_home">Home</string>
+    <string name="title_health">Health</string>
+    <string name="title_diet">Diet</string>
+    <string name="health_hint">Günümüzde “plaza insanı” diye tabir edilen
+        ancak aslında içerisinde ev hanımlarının da yer aldığı bir kesim,
+        oturarak çalışanlar kategorisine giriyor. Sekiz saatlik günlük çalışma süresinin
+        en az dört-beş saatini oturarak geçiriyorsanız, bu sizin de aynı grupta olduğunuz anlamına geliyor.
+        Beslenme Uzmanı ve Diyetisyen Bahar Aktan, oturarak çalışan tanımının geniş olduğunu söylese de danışanlarının
+        yüzde 70-80’inin plaza çalışanları olduğunu belirtiyor.</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
